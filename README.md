@@ -5,12 +5,13 @@ Protein structure prediction is one of the crucial issues in present day computa
 
 Convolutional neural networks are current state-of-art architecture for image or text classification tasks. CNN is being used everywhere, be it for processing sequential data such as audio, time series, NLP and in this session we use this algorithm to predict the secondary structure. The term convolution on CNN refers to the mathematical combination of two functions to produce a third function and then it combines two sets of information. There are 3 types of convolution operations. 1D convolution (used where input is sequential such as text or audio); 2D convolution (used where the input is an image) and 3D convolution (used in 3D medical imaging or detecting events in video). CNN helps extract features from text/images that can assist in data processing for prediction, by extracting low-dimensional features, and then some high-dimensional features such as shapes.
 
+<img width="345" alt="image" src="https://user-images.githubusercontent.com/71427418/169717813-0d3c5110-8170-4755-bc83-49574cff50b4.png">
 An overview of convolutional neural network of our model.
-(https://user-images.githubusercontent.com/71427418/169717692-88915934-288c-4c50-95a1-cf83b1f6a798.png)
+
 
 Graph Convolutional Networks
 Convolutional neural networks can solve problems with ordinary 1-D and 2-D Euclidean data such as image and text classification, but often real-world data has a non-Euclidean structure. In this stage, graph neural networks become a solution that allows us to capture rich features of complex relationships between data. In recent years, various variants of graph neural networks are being developed with graph convolutional networks (GCN) being one of them. 
 
+<img width="274" alt="image" src="https://user-images.githubusercontent.com/71427418/169717826-1c48fa16-5840-41af-8de3-702f44ccb8a1.png">
 Illustration of graph convolutional networks (GCN).
-(https://user-images.githubusercontent.com/71427418/169717712-acdf52f8-02db-415c-9b24-2603db6089ea.png)
 
